@@ -1,0 +1,68 @@
+@import url('./variaveis.css');
+
+
+
+.layout {
+    display: flex;
+    margin: 50px 0 ;
+    background-color: var(--main-bg-color);
+    padding: 30px;
+    border-radius: 30px;
+    height: 500px;
+    width: 1000px;
+    box-shadow: 1px 1px 10px black;
+    position: relative;
+    overflow: hidden;
+}
+
+.title{
+    font-size: x-large;
+    margin-bottom: 50px;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    text-align: justify;
+    width: 600px;
+    margin: 50px;
+}
+
+.price{
+    margin: 50px 0;
+    align-self: flex-end;
+    font-size: xx-large;
+}
+
+.action{
+    align-self: flex-end;
+    animation: pulse 1.5s infinite;
+    background-color: greenyellow;
+    border: 1px solid gold;
+    padding: 10px;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+.imgProduto{
+    max-width: 100%;
+    transition: transform 0.3s ease-in-out;
+}
+
+.imgProduto:hover{
+transform: scale(1.2);
+    /* Aumenta a imagem em 20% ao passar o mouse */
+}
+
+@keyframes pulse{
+    0% {
+        transform:scale(1);
+    }
+    50% {
+        transform: scale(2);
+    }   
+       100% {
+        transform: scale(1);
+    }
+}

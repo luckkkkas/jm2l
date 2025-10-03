@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/global.css" />
+    <link rel="stylesheet" href="./assets/checkout.css" />
+    <title>Checkout</title>
+  </head>
+
+  <body>
+    <main class="principal">
+      <fieldset class="container">
+        <legend>Dados Pessoais</legend>
+
+        <label>
+          Nome completo
+          <input type="text" />
+        </label>
+
+        <label>
+          E-mail
+          <input type="email" />
+        </label>
+
+        <label>
+          Senha
+          <input type="password" />
+        </label>
+
+        <label>
+          Confirmar senha
+          <input type="password" />
+        </label>
+
+        <div class="container2">
+          <label>
+            CPF
+            <input type="text" />
+          </label>
+
+          <label>
+            RG
+            <input type="text" />
+          </label>
+
+          <label
+            >Sexo
+            <select>
+              <option value="Masc">Masculino</option>
+              <option value="Fem">Feminino</option>
+              <option value="N.Inf">Prefiro não informar</option>
+            </select>
+          </label>
+
+          <label>
+            Celular
+            <input type="text" />
+          </label>
+        </div>
+      </fieldset>
+
+      <fieldset class="container">
+        <legend>Escolha a forma de envio</legend>
+        <label
+          >Frete
+          <select>
+            <option value="Correiros">Correiros</option>
+            <option value="Azul Cargo">Azul Cargo</option>
+            <option value="Fedex">Fedex</option>
+          </select>
+        </label>
+
+        <label>
+          CEP
+          <input type="text" />
+        </label>
+
+
+        <label>
+          Endereço
+          <input type="text" />
+        </label>
+
+        <label>
+          Número
+          <input type="text" />
+        </label>
+
+        <label>
+          Complemento
+          <input type="text" />
+        </label>
+
+        <label>
+          Referência
+          <input type="text" />
+        </label>
+
+        <label>
+          Bairro
+          <input type="text" />
+        </label>
+
+        <label>
+          Cidade
+          <input type="text" />
+        </label>
+
+        <label>
+          Estado
+          <input type="text" />
+        </label>
+
+        <label>
+          País
+          <input type="text" />
+        </label>
+      </fieldset>
+
+      <!-- CORRIGIR -->
+      <fieldset class="container">
+        <legend>Escolha a forma de pagamento</legend>
+
+        <label>
+          Cartão de crédito
+          <input type="radio" name="pagamento" value="cartao" />
+        </label>
+        <br />
+
+        <label>
+          PIX
+          <input type="radio" name="pagamento" value="pix" />
+        </label>
+        <br />
+
+        <label>
+          Boleto
+          <input type="radio" name="pagamento" value="boleto" />
+        </label>
+        <br />
+
+        <a href="./tanks.html">
+          <button class="finish">Finalizar compra</button>
+        </a>
+      </fieldset>
+    </main>
+  </body>
+</html>

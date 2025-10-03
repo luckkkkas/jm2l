@@ -1,0 +1,104 @@
+@import url('./variaveis.css');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+a {
+    text-decoration: none;
+    color: var(--font-color);
+}
+
+.Thanks{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Thanks p{
+    font-size: 30px;
+}
+
+.Thanks h1 {
+    font-size: 50px;
+}
+
+.btn{
+    background-color: blueviolet;
+    padding: 30px;
+    font-size: x-large;
+    margin-top: 30px;
+    border-radius: 10px;
+    transition: .3s;
+}
+
+a:hover {
+    transform: scale(1.1);
+    color: greenyellow;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+.logo {
+    width: 30px;
+    height: 30px;
+    margin-left: 75px;
+    transform: scale(5);
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--body-color);
+}
+
+ol {
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    padding-right: 25px;
+}
+
+li {
+    display: flex;
+    text-decoration: none;
+    padding-right: 10px;
+}
+
+.header{
+    display: flex;
+    width: 90vw;
+    border-radius: 0px 0px 50px 50px;
+    justify-content: space-between;
+    padding: 25px 0px;
+    background-color: var(--main-bg-color);
+    color: var(--font-color);
+    box-shadow: 1px 1px 10px var(--shadow-color);
+    overflow: hidden;
+}
+
+.header:hover {
+    transform: scale(1.01);
+    transition: .5s;
+}
+
+footer{
+    border-radius: 50px 50px 0px 0px;
+    bottom: 0;
+    width: 90vw;
+    padding: 50px 0px;
+    text-align: center;
+    background-color: var(--main-bg-color);;
+    color: var(black);
+    box-shadow: 1px 1px 10px var(--shadow-color);
+}
