@@ -1,7 +1,5 @@
 @import url('./variaveis.css');
 
-
-
 .layout {
     display: flex;
     margin: 50px 0 ;
@@ -10,6 +8,7 @@
     border-radius: 30px;
     height: 500px;
     width: 1000px;
+    justify-content: center;
     box-shadow: 1px 1px 10px black;
     position: relative;
     overflow: hidden;
@@ -25,7 +24,7 @@
     flex-direction: column;
     height: 100%;
     text-align: justify;
-    width: 600px;
+    width: 400px;
     margin: 50px;
 }
 

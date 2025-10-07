@@ -4,9 +4,10 @@
     border-radius: 5%;
     text-align: center;
     height: 250px;
-    padding: 25px 5px;
+    padding: 45px 5px;
     margin: 20px;
-    width: max-content;
+    width: 300px;
+    text-wrap: wrap;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -28,7 +29,7 @@
 }
 
 .imagem{
-    height: 70%;
+    max-height: 70%;
     border-radius: 20px;
     padding: 20px;
     margin-bottom: 5px;
